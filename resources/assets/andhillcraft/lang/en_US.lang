@@ -1,0 +1,14 @@
+itemGroup.TabAndHillCraft=AndHillCraft
+
+item.conversionBall.name=Conversion Ball
+item.conversionWand.name=Conversion Wand
+item.bloodDiamond.name=Blood Diamond
+item.bloodDiamondDust.name=Blood Diamond Dust
+item.bloodDiamondIngot.name=Blood Diamond Ingot
+item.flintDust.name=Flint Dust
+item.gravelDust.name=Gravel Dust
+item.portableCraftingTable.name=Portable Crafting Table
+item.redCoal.name=Red Coal
+
+tile.xpStone.name=XPerience Stone
+tile.xpNetherRack.name=XPerience Netherrack

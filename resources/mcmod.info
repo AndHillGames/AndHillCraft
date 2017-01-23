@@ -1,0 +1,15 @@
+[
+{
+  "modid": "andhillcraft",
+  "name": "AndHillCraft",
+  "description": "A Mod that implements things i miss",
+  "version": "0.1A",
+  "mcversion": "1.10",
+  "url": "http://www.andhillgames.de",
+  "updateUrl": "",
+  "authorList": ["AndHillGames"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
