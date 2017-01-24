@@ -1,6 +1,7 @@
 package de.andhillgames.andhillcraft;
 
 import de.andhillgames.andhillcraft.handler.CraftingHandler;
+import de.andhillgames.andhillcraft.handler.FuelHandler;
 import de.andhillgames.andhillcraft.handler.MainWorldGen;
 import de.andhillgames.andhillcraft.handler.RecipeHandler;
 import de.andhillgames.andhillcraft.init.ModBlocks;
@@ -8,6 +9,7 @@ import de.andhillgames.andhillcraft.init.ModItems;
 import de.andhillgames.andhillcraft.misc.TabAndHillCraft;
 import de.andhillgames.andhillcraft.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -30,6 +32,9 @@ public class AndHillCraft {
 	// WORLDGENERATOR
 	public static MainWorldGen WorldGen = new MainWorldGen();	
 	
+	// CraftingHandler
+	public static CraftingHandler craftingHandler = new CraftingHandler();
+	
 	// DECLARE CREATIVETAB
 	public static CreativeTabs tabAndHillCraft = new TabAndHillCraft(CreativeTabs.getNextID(),"TabAndHillCraft");
 	
@@ -44,8 +49,12 @@ public class AndHillCraft {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init();
-		FMLCommonHandler.instance().bus().register(new CraftingHandler());
+		MinecraftForge.EVENT_BUS.register(craftingHandler);
+		GameRegistry.registerFuelHandler(new FuelHandler());
 		RecipeHandler.registerShapelessRecipes();
+		RecipeHandler.registerShapedRecipes();
+		RecipeHandler.registerSmeltingRecipes();
+		RecipeHandler.registerMaceratorRecipes();
 		GameRegistry.registerWorldGenerator(WorldGen, 1);
 	}
 	

@@ -1,5 +1,10 @@
 package de.andhillgames.andhillcraft.init;
 
+import de.andhillgames.andhillcraft.blocks.BlockBloodDiamondBlock;
+import de.andhillgames.andhillcraft.blocks.BlockBloodDiamondOre;
+import de.andhillgames.andhillcraft.blocks.BlockNetherBloodDiamondOre;
+import de.andhillgames.andhillcraft.blocks.BlockNetherRedCoalOre;
+import de.andhillgames.andhillcraft.blocks.BlockRedCoalOre;
 import de.andhillgames.andhillcraft.blocks.BlockXPNetherRack;
 import de.andhillgames.andhillcraft.blocks.BlockXPStone;
 import net.minecraft.block.Block;
@@ -12,18 +17,41 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks {
 	
 	public static Block xpStone;
-	
 	public static Block xpNetherRack;
+	public static Block bloodDiamondOre;
+	public static Block bloodDiamondBlock;
+	public static Block netherBloodDiamondOre;
+	public static Block netherRedCoalOre;
+	public static Block redCoalOre;
 	
 	public static void init() {
 		xpStone = new BlockXPStone();
-		
 		xpNetherRack = new BlockXPNetherRack();
+		bloodDiamondOre = new BlockBloodDiamondOre();
+		bloodDiamondBlock = new BlockBloodDiamondBlock();
+		netherBloodDiamondOre = new BlockNetherBloodDiamondOre();
+		netherRedCoalOre = new BlockNetherRedCoalOre();
+		redCoalOre = new BlockRedCoalOre();
 	}
 	
 	public static void register() {
 		registerBlock(xpStone);
 		registerBlock(xpNetherRack);
+		registerBlock(bloodDiamondOre);
+		registerBlock(bloodDiamondBlock);
+		registerBlock(netherBloodDiamondOre);
+		registerBlock(netherRedCoalOre);
+		registerBlock(redCoalOre);
+	}
+	
+	public static void registerRenders() {
+		registerRender(xpStone);
+		registerRender(xpNetherRack);
+		registerRender(bloodDiamondOre);
+		registerRender(bloodDiamondBlock);
+		registerRender(netherBloodDiamondOre);
+		registerRender(netherRedCoalOre);
+		registerRender(redCoalOre);
 	}
 	
 	private static void registerBlock(Block block) {
@@ -31,11 +59,6 @@ public class ModBlocks {
 		ItemBlock item = new ItemBlock(block);
 		item.setRegistryName(block.getRegistryName());
 		GameRegistry.register(item);
-	}
-	
-	public static void registerRenders() {
-		registerRender(xpStone);
-		registerRender(xpNetherRack);
 	}
 	
 	private static void registerRender(Block block) {

@@ -12,3 +12,8 @@ item.redCoal.name=Red Coal
 
 tile.xpStone.name=XPerience Stone
 tile.xpNetherRack.name=XPerience Netherrack
+tile.bloodDiamondOre.name=Blood Diamond Ore
+tile.bloodDiamondBlock.name=Blood Diamond Block
+tile.netherBloodDiamondOre.name=Nether Blood Diamond Ore
+tile.netherRedCoalOre.name=Nether Red Coal Ore
+tile.redCoalOre.name=Red Coal Ore

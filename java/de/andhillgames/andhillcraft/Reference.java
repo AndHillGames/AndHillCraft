@@ -3,8 +3,8 @@ package de.andhillgames.andhillcraft;
 public class Reference {
 	public static final String MODID = "andhillcraft";
 	public static final String NAME = "AndHillCraft";
-	public static final String VERSION = "0.1A";
-	public static final String MCVERSIONS = "[1.10]";
+	public static final String VERSION = "0.2A";
+	public static final String MCVERSIONS = "[1.9], [1.9.1], [1.9.2] [1.9.3], [1.9.4], [1.10], [1.10.1], [1.10.2]";
 	
 	public static final String CLIENT_PROXY_CLASS = "de.andhillgames.andhillcraft.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "de,andhillgames.andhillcraft.proxy.Serverproxy";
@@ -39,7 +39,12 @@ public class Reference {
 	
 	public static enum AndHillCraftBlocks {
 		XPSTONE("xpStone", "BlockXPStone"),
-		XPNETHERRACK("xpNetherRack", "BlockXPNetherRack");
+		XPNETHERRACK("xpNetherRack", "BlockXPNetherRack"),
+		BLOODDIAMONDORE("bloodDiamondOre", "BlockBloodDiamondOre"),
+		BLOODDIAMONDBLOCK("bloodDiamondBlock", "BlockBloodDiamondBlock"),
+		NETHERBLOODDIAMONDORE("netherBloodDiamondOre", "BlockNetherBloodDiamondOre"),
+		NETHERREDCOAL("netherRedCoalOre", "BlockNetherRedCoalOre"),
+		REDCOALORE("redCoalOre", "BlockRedCoalOre");
 		
 		private String unlocalizedName;
 		private String registryName;
