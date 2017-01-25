@@ -1,7 +1,7 @@
 package de.andhillgames.andhillcraft.blocks;
 
 import de.andhillgames.andhillcraft.AndHillCraft;
-import de.andhillgames.andhillcraft.Reference;
+import de.andhillgames.andhillcraft.misc.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 

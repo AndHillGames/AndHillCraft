@@ -5,7 +5,7 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import de.andhillgames.andhillcraft.AndHillCraft;
-import de.andhillgames.andhillcraft.Reference;
+import de.andhillgames.andhillcraft.misc.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -27,8 +27,7 @@ public class BlockXPStone extends Block {
 	}
 	
 	@Override
-	public int quantityDropped(Random random)
-    {
+	public int quantityDropped(Random random) {
         return 1;
     }
 	

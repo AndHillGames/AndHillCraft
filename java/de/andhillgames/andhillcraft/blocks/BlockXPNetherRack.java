@@ -3,7 +3,7 @@ package de.andhillgames.andhillcraft.blocks;
 import java.util.Random;
 
 import de.andhillgames.andhillcraft.AndHillCraft;
-import de.andhillgames.andhillcraft.Reference;
+import de.andhillgames.andhillcraft.misc.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -24,8 +24,7 @@ public class BlockXPNetherRack extends Block {
 	}
 	
 	@Override
-	public int quantityDropped(Random random)
-    {
+	public int quantityDropped(Random random) {
         return 1;
     }
 	

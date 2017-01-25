@@ -6,7 +6,9 @@ import de.andhillgames.andhillcraft.handler.MainWorldGen;
 import de.andhillgames.andhillcraft.handler.RecipeHandler;
 import de.andhillgames.andhillcraft.init.ModBlocks;
 import de.andhillgames.andhillcraft.init.ModItems;
-import de.andhillgames.andhillcraft.misc.TabAndHillCraft;
+import de.andhillgames.andhillcraft.misc.Reference;
+import de.andhillgames.andhillcraft.misc.TabAndHillCraftCBM;
+import de.andhillgames.andhillcraft.misc.TabAndHillCraftMO;
 import de.andhillgames.andhillcraft.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -36,7 +38,8 @@ public class AndHillCraft {
 	public static CraftingHandler craftingHandler = new CraftingHandler();
 	
 	// DECLARE CREATIVETAB
-	public static CreativeTabs tabAndHillCraft = new TabAndHillCraft(CreativeTabs.getNextID(),"TabAndHillCraft");
+	public static CreativeTabs tabAndHillCraft = new TabAndHillCraftCBM(CreativeTabs.getNextID(),"TabAndHillCraftCBM");
+	public static CreativeTabs tabAndHillCraftMO = new TabAndHillCraftMO(CreativeTabs.getNextID(),"TabAndHillCraftMO");
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

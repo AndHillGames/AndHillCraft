@@ -1,8 +1,8 @@
 package de.andhillgames.andhillcraft.items;
 
 import de.andhillgames.andhillcraft.AndHillCraft;
-import de.andhillgames.andhillcraft.Reference;
 import de.andhillgames.andhillcraft.init.ModItems;
+import de.andhillgames.andhillcraft.misc.Reference;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 

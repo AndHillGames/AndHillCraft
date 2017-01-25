@@ -1,7 +1,7 @@
 package de.andhillgames.andhillcraft.handler;
 
-import de.andhillgames.andhillcraft.Reference;
 import de.andhillgames.andhillcraft.init.ModItems;
+import de.andhillgames.andhillcraft.misc.Reference;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.IFuelHandler;
 
