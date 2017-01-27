@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemFerrousIngot extends Item {
 	public ItemFerrousIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.FERROUSINGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.FERROUSINGOT.getRegistryName());
 	}

@@ -16,7 +16,7 @@ import net.minecraft.item.ItemStack;
 public class BlockNetherLapisLazuliOre extends Block {
 	public BlockNetherLapisLazuliOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERLAPISLAZULIORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERLAPISLAZULIORE.getRegistryName());
 		setHardness(2.0F);

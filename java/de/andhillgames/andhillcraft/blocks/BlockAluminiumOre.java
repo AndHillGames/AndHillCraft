@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockAluminiumOre extends Block {
 	public BlockAluminiumOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.ALUMINIUMORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.ALUMINIUMORE.getRegistryName());
 		setHardness(2.0F);

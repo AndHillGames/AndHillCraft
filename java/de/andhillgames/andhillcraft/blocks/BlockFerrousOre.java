@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockFerrousOre extends Block {
 	public BlockFerrousOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.FERROUSORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.FERROUSORE.getRegistryName());
 		setHardness(2.0F);

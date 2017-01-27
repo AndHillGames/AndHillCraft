@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemAluminiumIngot extends Item {
 	public ItemAluminiumIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.ALUMINIUMINGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.ALUMINIUMINGOT.getRegistryName());
 	}

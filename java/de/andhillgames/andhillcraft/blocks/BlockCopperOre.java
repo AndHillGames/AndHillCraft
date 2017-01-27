@@ -15,7 +15,7 @@ import net.minecraft.world.IBlockAccess;
 public class BlockCopperOre extends Block {
 	public BlockCopperOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.COPPERORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.COPPERORE.getRegistryName());
 		setHardness(2.0F);

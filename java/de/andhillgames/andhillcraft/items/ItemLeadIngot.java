@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemLeadIngot extends Item {
 	public ItemLeadIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.LEADINGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.LEADINGOT.getRegistryName());
 	}

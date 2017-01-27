@@ -14,7 +14,7 @@ import net.minecraft.item.Item;
 public class BlockNetherEmeraldOre extends Block {
 	public BlockNetherEmeraldOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHEREMERALDORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHEREMERALDORE.getRegistryName());
 		setHardness(2.0F);

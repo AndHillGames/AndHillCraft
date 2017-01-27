@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemUraniumIngot extends Item {
 	public ItemUraniumIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.URANIUMINGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.URANIUMINGOT.getRegistryName());
 	}

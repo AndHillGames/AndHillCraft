@@ -14,7 +14,7 @@ import net.minecraft.item.Item;
 public class BlockNetherDiamondOre extends Block {
 	public BlockNetherDiamondOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERDIAMONDORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERDIAMONDORE.getRegistryName());
 		setHardness(2.0F);

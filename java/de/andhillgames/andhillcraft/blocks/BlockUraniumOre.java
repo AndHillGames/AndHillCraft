@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockUraniumOre extends Block {
 	public BlockUraniumOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.URANIUMORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.URANIUMORE.getRegistryName());
 		setHardness(2.0F);

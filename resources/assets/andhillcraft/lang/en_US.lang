@@ -1,6 +1,6 @@
-itemGroup.TabAndHillCraftCBM=Conversion Mod
-itemGroup.TabAndHillCraftMO=More Ores Mod
+itemGroup.TabAndHillCraft=AndHillCraft
 
+item.ahgIcon.name=Mod Icon [Creative Only]
 item.conversionBall.name=Conversion Ball
 item.conversionWand.name=Conversion Wand
 item.bloodDiamond.name=Blood Diamond
@@ -18,6 +18,9 @@ item.aluminiumIngot.name=Aluminium Ingot
 item.ferrousIngot.name=Ferrous Ingot
 item.uraniumIngot.name=Uranium Ingot
 item.salt.name=Salt
+item.smallBackPack.name=Small Backpack
+item.mediumBackPack.name=Medium Backpack
+item.bigBackPack.name=Big Backpack
 
 tile.xpStone.name=XPerience Stone
 tile.xpNetherRack.name=XPerience Netherrack
@@ -49,3 +52,8 @@ tile.netherDiamondOre.name=Nether Diamond Ore
 tile.netherLapisLazuliOre.name=Nether Lapis Lazuli Ore
 tile.netherRedStoneOre.name=Nether Redstone Ore
 tile.netherEmeraldOre.name=Nether Emerald Ore
+tile.advancedCraftingTable.name=AdvancedCraftingTable
+
+container.advancedCraftingTable.title=Advanced Crafting Table
+container.advancedCraftingTable.chest=Chest Inventory
+container.advancedCraftingTable.inventory=Inventory

@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "down": "andhillcraft:blocks/blockadvancedcraftingtable_bottom",
+        "up": "andhillcraft:blocks/blockadvancedcraftingtable_top",
+        "north": "andhillcraft:blocks/blockadvancedcraftingtable_front",
+        "east": "andhillcraft:blocks/blockadvancedcraftingtable_front",
+        "south": "andhillcraft:blocks/blockadvancedcraftingtable_front",
+        "west": "andhillcraft:blocks/blockadvancedcraftingtable_front"
+    }
+}

@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemSilverIngot extends Item {
 	public ItemSilverIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.SILVERINGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.SILVERINGOT.getRegistryName());
 	}

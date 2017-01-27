@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemCopperIngot extends Item {
 	public ItemCopperIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.COPPERINGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.COPPERINGOT.getRegistryName());
 	}

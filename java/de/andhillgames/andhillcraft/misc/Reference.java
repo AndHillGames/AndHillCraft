@@ -3,22 +3,25 @@ package de.andhillgames.andhillcraft.misc;
 public class Reference {
 	public static final String MODID = "andhillcraft";
 	public static final String NAME = "AndHillCraft";
-	public static final String VERSION = "0.3A";
+	public static final String VERSION = "0.4A";
 	public static final String MCVERSIONS = "[1.9], [1.9.1], [1.9.2] [1.9.3], [1.9.4], [1.10], [1.10.1], [1.10.2]";
 	
 	public static final String CLIENT_PROXY_CLASS = "de.andhillgames.andhillcraft.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "de,andhillgames.andhillcraft.proxy.Serverproxy";
 
 	public static enum AndHillCraftItems {
+		// Dummy
+		AHGICON("ahgIcon", "ItemAhgIcon"),
+		
+		// Tools
 		CONVERSIONBALL("conversionBall", "ItemConversionBall"),
 		CONVERSIONWAND("conversionWand", "ItemConversionWand"),
-		BLOODDIAMOND("bloodDiamond", "ItemBloodDiamond"),
-		BLOODDIAMONDDUST("bloodDiamondDust", "ItemBloodDiamondDust"),
-		BLOODDIAMONDINGOT("bloodDiamondIngot", "ItemBloodDiamondIngot"),
-		FLINTDUST("flintDust", "ItemFlintDust"),
-		GRAVELDUST("gravelDust", "ItemGravelDust"),
 		PORTABLECRAFTINGTABLE("portableCraftingTable", "ItemPortableCraftingTable"),
+		
+		// Materials
+		BLOODDIAMOND("bloodDiamond", "ItemBloodDiamond"),
 		REDCOAL("redCoal", "ItemRedCoal"),
+		BLOODDIAMONDINGOT("bloodDiamondIngot", "ItemBloodDiamondIngot"),
 		COPPERINGOT("copperIngot", "ItemCopperIngot"),
 		TININGOT("tinIngot", "ItemTinIngot"),
 		SILVERINGOT("silverIngot", "ItemSilverIngot"),
@@ -26,7 +29,16 @@ public class Reference {
 		ALUMINIUMINGOT("aluminiumIngot", "ItemAluminiumIngot"),
 		FERROUSINGOT("ferrousIngot", "ItemFerrousIngot"),
 		URANIUMINGOT("uraniumIngot", "ItemUraniumIngot"),
-		SALT("salt", "ItemSalt");
+		BLOODDIAMONDDUST("bloodDiamondDust", "ItemBloodDiamondDust"),
+		FLINTDUST("flintDust", "ItemFlintDust"),
+		GRAVELDUST("gravelDust", "ItemGravelDust"),
+		SALT("salt", "ItemSalt"),
+		
+		// Miscellaneous
+		SMALLBACKPACK("smallBackPack", "ItemSmallBackPack"),
+		MEDIUMBACKPACK("mediumBackPack", "ItemMediumBackPack"),
+		BIGBACKPACK("bigBackPack", "ItemBigBackPack");
+		
 		
 		private String unlocalizedName;
 		private String registryName;
@@ -46,12 +58,15 @@ public class Reference {
 	}
 	
 	public static enum AndHillCraftBlocks {
+		// Building Blocks
 		XPSTONE("xpStone", "BlockXPStone"),
 		XPNETHERRACK("xpNetherRack", "BlockXPNetherRack"),
-		BLOODDIAMONDORE("bloodDiamondOre", "BlockBloodDiamondOre"),
 		BLOODDIAMONDBLOCK("bloodDiamondBlock", "BlockBloodDiamondBlock"),
+		
+		// Ores
 		NETHERBLOODDIAMONDORE("netherBloodDiamondOre", "BlockNetherBloodDiamondOre"),
 		NETHERREDCOAL("netherRedCoalOre", "BlockNetherRedCoalOre"),
+		BLOODDIAMONDORE("bloodDiamondOre", "BlockBloodDiamondOre"),
 		REDCOALORE("redCoalOre", "BlockRedCoalOre"),
 		COPPERORE("copperOre", "BlockCopperOre"),
 		TINORE("tinOre", "BlockTinOre"),
@@ -75,8 +90,10 @@ public class Reference {
 		NETHERDIAMONDORE("netherDiamondOre", "BlockNetherDiamondOre"),
 		NETHERLAPISLAZULIORE("netherLapisLazuliOre", "BlockNetherLapisLazuliOre"),
 		NETHERREDSTONEORE("netherRedStoneOre", "BlockNetherRedStoneOre"),
-		NETHEREMERALDORE("netherEmeraldOre", "BlockNetherEmeraldOre");
+		NETHEREMERALDORE("netherEmeraldOre", "BlockNetherEmeraldOre"),
 		
+		// Machines
+		ADVANCEDCRAFTINGTABLE("advancedCraftingTable", "BlockAdvancedCraftingTable");
 		
 		private String unlocalizedName;
 		private String registryName;

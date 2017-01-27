@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockNetherSaltOre extends Block {
 	public BlockNetherSaltOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERSALTORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERSALTORE.getRegistryName());
 		setHardness(2.0F);

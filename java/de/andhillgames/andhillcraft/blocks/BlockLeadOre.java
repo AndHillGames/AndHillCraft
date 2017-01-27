@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockLeadOre extends Block {
 	public BlockLeadOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.LEADORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.LEADORE.getRegistryName());
 		setHardness(2.0F);

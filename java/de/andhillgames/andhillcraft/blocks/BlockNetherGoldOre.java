@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockNetherGoldOre extends Block {
 	public BlockNetherGoldOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERGOLDORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERGOLDORE.getRegistryName());
 		setHardness(2.0F);

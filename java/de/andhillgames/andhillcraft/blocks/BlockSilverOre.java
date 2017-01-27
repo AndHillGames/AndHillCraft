@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockSilverOre extends Block {
 	public BlockSilverOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.SILVERORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.SILVERORE.getRegistryName());
 		setHardness(2.0F);

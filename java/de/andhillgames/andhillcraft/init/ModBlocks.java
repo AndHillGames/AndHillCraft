@@ -1,6 +1,7 @@
 package de.andhillgames.andhillcraft.init;
 
 import de.andhillgames.andhillcraft.blocks.BlocNetherkAluminiumOre;
+import de.andhillgames.andhillcraft.blocks.BlockAdvancedCraftingTable;
 import de.andhillgames.andhillcraft.blocks.BlockAluminiumOre;
 import de.andhillgames.andhillcraft.blocks.BlockBloodDiamondBlock;
 import de.andhillgames.andhillcraft.blocks.BlockBloodDiamondOre;
@@ -36,19 +37,20 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class ModBlocks {
 	
-	// ConversionMod
+	// Building Blocks
 	public static Block xpStone;
 	public static Block xpNetherRack;
-	public static Block bloodDiamondOre;
 	public static Block bloodDiamondBlock;
+	
+	// Ores
+	public static Block bloodDiamondOre;
 	public static Block netherBloodDiamondOre;
 	public static Block netherRedCoalOre;
 	public static Block redCoalOre;
-	
-	// More Ores Mod
 	public static Block copperOre;
 	public static Block tinOre;
 	public static Block silverOre;
@@ -73,19 +75,22 @@ public class ModBlocks {
 	public static Block netherRedStoneOre;
 	public static Block netherEmeraldOre;
 	
+	// Machines
+	public static Block advancedCraftingTable;
+	
 	
 	public static void init() {
 		
-		// ConversionMod
+		// Building Blocks
 		xpStone = new BlockXPStone();
 		xpNetherRack = new BlockXPNetherRack();
-		bloodDiamondOre = new BlockBloodDiamondOre();
 		bloodDiamondBlock = new BlockBloodDiamondBlock();
+		
+		// Ores
+		bloodDiamondOre = new BlockBloodDiamondOre();
 		netherBloodDiamondOre = new BlockNetherBloodDiamondOre();
 		netherRedCoalOre = new BlockNetherRedCoalOre();
 		redCoalOre = new BlockRedCoalOre();
-		
-		// More Ores Mod
 		copperOre = new BlockCopperOre();
 		tinOre = new BlockTinOre();
 		silverOre = new BlockSilverOre();
@@ -110,20 +115,23 @@ public class ModBlocks {
 		netherRedStoneOre = new BlockNetherRedStoneOre();
 		netherEmeraldOre = new BlockNetherEmeraldOre();
 		
+		// Machines
+		advancedCraftingTable = new BlockAdvancedCraftingTable();
+		
 	}
 	
 	public static void register() {
 		
-		// ConversionMod
+		// Building Blocks
 		registerBlock(xpStone);
 		registerBlock(xpNetherRack);
-		registerBlock(bloodDiamondOre);
 		registerBlock(bloodDiamondBlock);
+		
+		// Ores
+		registerBlock(bloodDiamondOre);
 		registerBlock(netherBloodDiamondOre);
 		registerBlock(netherRedCoalOre);
 		registerBlock(redCoalOre);
-		
-		// More Ores Mod
 		registerBlock(copperOre);
 		registerBlock(tinOre);
 		registerBlock(silverOre);
@@ -148,20 +156,23 @@ public class ModBlocks {
 		registerBlock(netherRedStoneOre);
 		registerBlock(netherEmeraldOre);
 		
+		// Machines
+		registerBlock(advancedCraftingTable);
+		
 	}
 	
 	public static void registerRenders() {
 		
-		// ConversionMod
+		// Building Blocks
 		registerRender(xpStone);
 		registerRender(xpNetherRack);
-		registerRender(bloodDiamondOre);
 		registerRender(bloodDiamondBlock);
+		
+		// Ores
+		registerRender(bloodDiamondOre);
 		registerRender(netherBloodDiamondOre);
 		registerRender(netherRedCoalOre);
 		registerRender(redCoalOre);
-		
-		// More Ores Mod
 		registerRender(copperOre);
 		registerRender(tinOre);
 		registerRender(silverOre);
@@ -185,6 +196,22 @@ public class ModBlocks {
 		registerRender(netherLapisLazuliOre);
 		registerRender(netherRedStoneOre);
 		registerRender(netherEmeraldOre);
+		
+		// Machines
+		registerRender(advancedCraftingTable);
+		
+	}
+	
+	public static void registerBlockOres() {
+		OreDictionary.registerOre("oreDiamond", bloodDiamondOre);
+		OreDictionary.registerOre("oreCopper", copperOre);
+		OreDictionary.registerOre("oreTin", tinOre);
+		OreDictionary.registerOre("oreSilver", silverOre);
+		OreDictionary.registerOre("oreLead", leadOre);
+		OreDictionary.registerOre("oreAluminium", aluminiumOre);
+		OreDictionary.registerOre("oreFerrous",ferrousOre);
+		OreDictionary.registerOre("oreUranium", uraniumOre);
+		OreDictionary.registerOre("oreSalt", saltOre);
 	}
 	
 	private static void registerBlock(Block block) {

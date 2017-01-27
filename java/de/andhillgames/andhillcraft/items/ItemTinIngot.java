@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemTinIngot extends Item {
 	public ItemTinIngot() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.TININGOT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.TININGOT.getRegistryName());
 	}

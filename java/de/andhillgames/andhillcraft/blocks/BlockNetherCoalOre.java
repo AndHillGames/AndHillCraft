@@ -14,7 +14,7 @@ import net.minecraft.item.Item;
 public class BlockNetherCoalOre extends Block {
 	public BlockNetherCoalOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERCOALORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERCOALORE.getRegistryName());
 		setHardness(2.0F);

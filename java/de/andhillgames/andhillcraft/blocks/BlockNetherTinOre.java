@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockNetherTinOre extends Block {
 	public BlockNetherTinOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERTINORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERTINORE.getRegistryName());
 		setHardness(2.0F);

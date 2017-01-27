@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 public class BlockNetherFerrousOre extends Block {
 	public BlockNetherFerrousOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.NETHERFERROUSORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.NETHERFERROUSORE.getRegistryName());
 		setHardness(2.0F);

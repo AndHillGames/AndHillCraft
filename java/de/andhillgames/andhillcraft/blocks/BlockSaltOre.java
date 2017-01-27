@@ -13,7 +13,7 @@ import net.minecraft.item.Item;
 public class BlockSaltOre extends Block {
 	public BlockSaltOre() {
 		super(Material.ROCK);
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftBlocks.SALTORE.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftBlocks.SALTORE.getRegistryName());
 		setHardness(2.0F);

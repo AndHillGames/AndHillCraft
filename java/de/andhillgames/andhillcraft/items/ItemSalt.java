@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemSalt extends Item {
 	public ItemSalt() {
-		setCreativeTab(AndHillCraft.tabAndHillCraftMO);
+		setCreativeTab(AndHillCraft.tabAndHillCraft);
 		setUnlocalizedName(Reference.AndHillCraftItems.SALT.getUnlocalizedName());
 		setRegistryName(Reference.AndHillCraftItems.SALT.getRegistryName());
 	}
